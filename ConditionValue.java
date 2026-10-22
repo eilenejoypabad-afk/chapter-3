@@ -1,0 +1,15 @@
+//Eilene Joy Abad 
+// BSIT NS 1-1 
+package helloworld.control;
+
+public class ConditionValue {
+    public static void main(String[] args) {
+
+        int grade = 80;
+        String testResult;
+
+        testResult = (grade >= 80) ? "A" : "B";
+
+        System.out.println(testResult);
+    }
+}
