@@ -1,0 +1,15 @@
+// Eilene Joy Abad
+// BSIT NS 1-1 
+public class BonusPayment2 
+{
+    public static void main(String[] args) 
+  {
+    int itemsSold = 4, totalValue = 2500;
+      if (itemsSold > 3 && totalValue > 1000)
+            System.out.println("Received Php100 Bonus");
+        else if (itemsSold > 3 && totalValue <= 1000)
+            System.out.println("Received Php50 Bonus");
+        else
+            System.out.println("No bonus for you");
+    }
+}
